@@ -330,10 +330,6 @@ export const SOCIAL_LINKS: SocialLink[] = [
     link: 'https://github.com/ajdumanhug',
   },
   {
-    label: 'Twitter',
-    link: 'https://twitter.com/ajdumanhug',
-  },
-  {
     label: 'LinkedIn',
     link: 'https://www.linkedin.com/in/ajdumanhug',
   },
