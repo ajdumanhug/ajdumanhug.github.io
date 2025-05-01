@@ -1,9 +1,6 @@
-import createMDX from '@next/mdx';
-
 /** @type {import('next').NextConfig} */
-const baseConfig = {
+const nextConfig = {
   reactStrictMode: true,
-  pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
   devIndicators: false,
   output: 'export',
   images: {
@@ -11,9 +8,4 @@ const baseConfig = {
   },
 };
 
-const withMDX = createMDX({
-  extension: /\.mdx?$/,
-});
-
-const nextConfig = withMDX(baseConfig);
-export default nextConfig;
+module.exports = nextConfig; 
