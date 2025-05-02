@@ -6,7 +6,7 @@ import Image from 'next/image'
 export function Header() {
   return (
     <header className="mb-8 flex items-center justify-between">
-      <div className='flex flex-col items-center space-x-4'>
+      <div className='flex-1 flex-col items-center mb-5 space-x-4'>
         <Image
             src="/images/me.jpg"
             alt="AJ Dumanhug"
