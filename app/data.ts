@@ -272,7 +272,7 @@ export const CERTS: Certs[] = [
 export const ACHIEVEMENTS: Achievements[] = [
   {
     rank: '5th Place',
-    name: 'BSides Nashville',
+    name: 'BSides Nashville CTF',
     date: '05/2025',
     id: 'achievement1',
   },
