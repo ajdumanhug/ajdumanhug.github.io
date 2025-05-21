@@ -271,52 +271,58 @@ export const CERTS: Certs[] = [
 
 export const ACHIEVEMENTS: Achievements[] = [
   {
+    rank: '5th Place',
+    name: 'BSides Nashville',
+    date: '05/2025',
+    id: 'achievement1',
+  },
+  {
     rank: '3rd Place',
     name: 'DEFCON 29 Red Team Village CTF Finals',
     date: '08/2021',
-    id: 'achievement1',
+    id: 'achievement2',
   },
   {
     rank: '3rd Place',
     name: 'DEFCON 29 Red Team Village CTF Qualifiers',
     date: '08/2021',
-    id: 'achievement2',
+    id: 'achievement3',
   },
   {
     rank: '10th Place',
     name: 'SINCON 2020 Wonderland CTF',
     date: '12/2020',
-    id: 'achievement3',
+    id: 'achievement4',
   },
   {
     rank: '3rd Place',
     name: 'HackTheBox 2v2 Battlegrounds',
     date: '12/2020',
-    id: 'achievement4',
+    id: 'achievement5',
   },
   {
     rank: '1st Place',
     name: 'ROOTCON 13 CTF',
     date: '09/2019',
-    id: 'achievement5',
+    id: 'achievement6',
   },
   {
     rank: '7th Place',
     name: 'Facebook and Google\'s Bounty Con',
     date: '09/2018',
-    id: 'achievement6',
+    id: 'achievement7',
   },
   {
     rank: '2nd Place',
     name: 'ROOTCON 12 CTF',
     date: '09/2018',
-    id: 'achievement7',
+    id: 'achievement8',
   },
   {
     rank: '1st Place',
     name: 'CyberSecurity Philippines - CERT Red Team CTF',
     date: '09/2018',
-    id: 'achievement8',
+    id: 'achievement9',
   },
 ]
 
