@@ -135,18 +135,22 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-5 text-lg font-medium">About Me</h3>
+        <h3 className="mb-5 text-lg font-medium">#whoami</h3>
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-          AJ Dumanhug is a cybersecurity professional with over eight years of practical experience, mainly in offensive security, application security, and penetration testing.
+          AJ Dumanhug is a cybersecurity professional with more than eight years of hands-on experience in offensive security.
           </p>
           <br></br>
           <p className="text-zinc-600 dark:text-zinc-400">
-          Over the years, he’s taken on a variety of roles in the field. He’s taught web application security at institutions like the University of the Philippines SITF, Adamson University CPDD, and De La Salle – College of Saint Benilde SPaCE. He’s also worked closely with government agencies, including the Philippine Army and the National Privacy Commission.
+          He has taught cybersecurity courses at the University of the Philippines SITF, De La Salle - College of St. Benilde SPaCE, and Adamson University CPDD. He also served as a Highly Technical Consultant for the National Privacy Commission, where he provided expertise on security and privacy matters.
           </p>
           <br></br>
           <p className="text-zinc-600 dark:text-zinc-400">
-          Outside of work, AJ is part of Hackstreetboys, a professional cybersecurity group known for competing in both local and international Capture The Flag events. One of their standout achievements was placing third at the DEFCON CTF under the Red Team Village. These days, the group also helps organize and run CTF competitions in the Philippines, mainly through the ROOTCON Hacking Conference.
+          AJ is a member of hackstreetboys, a well-recognized team in the Philippines that competes in local and international Capture the Flag (CTF) events. With the group, one of their most notable achievements was securing third place at the DEFCON CTF under the Red Team Village. Beyond competing, AJ also helps organize the ROOTCON CTF competitions, supporting the local community of security enthusiasts.
+          </p>
+          <br></br>
+          <p className="text-zinc-600 dark:text-zinc-400">
+          He holds multiple cybersecurity certifications, including CISSP, OSEP, OSWE, OSCP, OSWP, CRTO, CRTE, CRTP, eMAPT, eCIR, eCTHP, eCDFP, PNPT, ECSA, and CEH.
           </p>
         </div>
       </motion.section>
